@@ -1,0 +1,119 @@
+header {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 3rem;
+  align-items: center;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  border-color: #db9a8f;
+}
+
+h1 {
+  font-family: Arbutus Slab, serif;
+  color: #db9a8f;
+  size: 16px;
+}
+h2 {
+  font-family: Arbutus Slab, serif;
+  color: #db9a8f;
+  size: 16px;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: #db9a8f;
+  size: 12px;
+}
+p {
+  font-family: Arbutus Slab, serif;
+  color: #db9a8f;
+  size: 12px;
+}
+
+.subtitle {
+  font-family: "Poppins", sans-serif;
+  color: #db9a8f;
+}
+
+body {
+  background-color: #814256;
+}
+
+container-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header ul {
+  display: flex;
+  flex-direction: row;
+}
+
+header li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin: 1rem;
+  list-style: none;
+}
+header li p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: #db9a8f;
+}
+header li a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.creme-background {
+  background-color: #db9a8f;
+  height: 391px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.about-me {
+  margin: 5rem;
+}
+.creme-background h2 {
+  font-family: Arbutus Slab, serif;
+  color: #814256;
+  size: 16px;
+}
+
+.creme-background p {
+  font-family: Arbutus Slab, serif;
+  color: #814256;
+  size: 16px;
+  margin: auto;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.Webentwicklung {
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  margin: 5rem;
+}
+
+.Webentwicklung p {
+  font-family: Arbutus Slab, serif;
+  color: #db9a8f;
+  size: 16px;
+  margin: 0 4rem 4rem 4rem;
+}
